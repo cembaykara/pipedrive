@@ -11,7 +11,7 @@ import CoreLocation
 
 class PinboardViewController: UIViewController, CollectionViewDataFetcherDelegate {
     
-    var fetchedData: Person? {
+    var fetchedData: People? {
         didSet {
             self.collectionView.reloadData()
         }
@@ -44,7 +44,7 @@ extension PinboardViewController {
     func didRefresh() {
         
         let networkHandler = NetworkHandler()
-        networkHandler.fetch(from: .persons) { [self] (data: Person?, error) in
+        networkHandler.fetch(from: .persons) { [self] (data: People?, error) in
                 guard let receivedData = data else {
                     if let error = error {
                         print("\(error.description)")

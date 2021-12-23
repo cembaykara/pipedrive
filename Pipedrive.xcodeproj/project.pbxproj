@@ -16,7 +16,7 @@
 		912692EE275D0CB5000C95EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912692EC275D0CB5000C95EB /* LaunchScreen.storyboard */; };
 		912692F9275D0CB5000C95EB /* PipedriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912692F8275D0CB5000C95EB /* PipedriveTests.swift */; };
 		91269304275D0CB5000C95EB /* PipedriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269303275D0CB5000C95EB /* PipedriveUITests.swift */; };
-		91269321275D2FBD000C95EB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269320275D2FBD000C95EB /* Person.swift */; };
+		91269321275D2FBD000C95EB /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269320275D2FBD000C95EB /* People.swift */; };
 		9126932A275D3139000C95EB /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269329275D3139000C95EB /* NetworkHandler.swift */; };
 		91269343275D8FA2000C95EB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269342275D8FA2000C95EB /* DetailsViewController.swift */; };
 		9126934B275D936F000C95EB /* Flipable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126934A275D936F000C95EB /* Flipable.swift */; };
@@ -69,7 +69,7 @@
 		912692FF275D0CB5000C95EB /* PipedriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipedriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91269303275D0CB5000C95EB /* PipedriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveUITests.swift; sourceTree = "<group>"; };
 		91269305275D0CB5000C95EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91269320275D2FBD000C95EB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		91269320275D2FBD000C95EB /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		91269329275D3139000C95EB /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		91269342275D8FA2000C95EB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		9126934A275D936F000C95EB /* Flipable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flipable.swift; sourceTree = "<group>"; };
@@ -154,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				9126938F275EE897000C95EB /* FailedCustomFlipableCollectionView */,
-				91269359275D96B1000C95EB /* View */,
 				91269341275D8F5C000C95EB /* ViewController */,
 				91269328275D3127000C95EB /* Network */,
 				9126931F275D2F96000C95EB /* Model */,
@@ -189,7 +188,7 @@
 		9126931F275D2F96000C95EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				91269320275D2FBD000C95EB /* Person.swift */,
+				91269320275D2FBD000C95EB /* People.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,13 +209,6 @@
 				91269342275D8FA2000C95EB /* DetailsViewController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		91269359275D96B1000C95EB /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		91269370275D9C98000C95EB /* Helpers */ = {
@@ -501,7 +493,7 @@
 				912692E6275D0CAA000C95EB /* PeopleViewController.swift in Sources */,
 				9126935D275D96D5000C95EB /* PhotoViewFront.swift in Sources */,
 				912692E2275D0CAA000C95EB /* AppDelegate.swift in Sources */,
-				91269321275D2FBD000C95EB /* Person.swift in Sources */,
+				91269321275D2FBD000C95EB /* People.swift in Sources */,
 				9126935F275D96D5000C95EB /* PhotoViewBack.swift in Sources */,
 				9126932A275D3139000C95EB /* NetworkHandler.swift in Sources */,
 				9126934B275D936F000C95EB /* Flipable.swift in Sources */,

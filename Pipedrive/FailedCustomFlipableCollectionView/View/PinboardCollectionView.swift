@@ -21,7 +21,7 @@ class PinboardCollectionView: UICollectionView, UICollectionViewDataSource, UICo
         return controller
     }()
 
-    var fetchedData: Person? {
+    var fetchedData: People? {
         didSet {
             self.reloadData()
         }

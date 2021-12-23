@@ -17,8 +17,6 @@ class DetailsViewController: UITableViewController {
     weak var fetchDelegate: DataDelegate?
     
     private let sections = ["First Name","Last Name", "Phone", "Email"]
-    
-    private var prepredDta: [[Any]]?
 
     var fetchedData: Object? {
         didSet {
@@ -30,11 +28,11 @@ class DetailsViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareViewController()
-        // Do any additional setup after loading the view.
+
     }
     
     func prepareViewController(){
-        navigationItem.title = "Name"
+        navigationItem.title = fetchedData?.name
         navigationController?.navigationBar.prefersLargeTitles = true
         view.backgroundColor = .white
     }
@@ -45,29 +43,29 @@ extension DetailsViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let fetchedData = fetchedData else {return 0}
         if section == 2 {
-            return fetchedData.phone!.count
+            return fetchedData.phone?.count ?? 0
         }else if section == 3 {
-            return fetchedData.email!.count
+            return fetchedData.email?.count ?? 0
         }
         return 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        var text : String
+
+            if let fetchedData = fetchedData {
+            
+                if indexPath.section == 0 {
+                cell.textLabel?.text = fetchedData.firstName
+            }else if (indexPath.section == 1){
+                cell.textLabel?.text = fetchedData.lastName
+            }else if (indexPath.section == 2){
+                cell.textLabel?.text = (fetchedData.phone?[indexPath.row].value)
+            }else {
+                cell.textLabel?.text = (fetchedData.email?[indexPath.row].value)
+            }
         
-        //MARK: TODO - More time better code
-        if indexPath.section == 0 {
-            text = (fetchedData?.firstName)!
-        }else if (indexPath.section == 1){
-            text = (fetchedData?.lastName)!
-        }else if (indexPath.section == 2){
-            text = (fetchedData?.phone![indexPath.row].value)!
-        }else {
-            text = (fetchedData?.email![indexPath.row].value)!
         }
-        
-        cell.textLabel?.text = text
         return cell
     }
     

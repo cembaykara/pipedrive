@@ -8,7 +8,7 @@
 import Foundation
 //MARK: TODO: Name Stuff better
 // Study the results of endpoints and create better model data maybe add core data to store instead
-struct Person: Codable {
+struct People: Codable {
     
     var data: [Object]?
 }
