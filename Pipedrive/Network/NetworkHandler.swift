@@ -20,7 +20,7 @@ class NetworkHandler {
         
         switch endpoint {
         case .persons:
-            url =  "https://\(domain).pipedrive.com/api/v1/persons/?api_token=\(apiToken)"
+            url = "https://\(domain).pipedrive.com/api/v1/persons/?api_token=\(apiToken)"
         }
         
         guard let remoteUrl = URL(string: url) else {return}
