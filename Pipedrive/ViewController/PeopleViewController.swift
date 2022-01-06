@@ -63,7 +63,7 @@ extension PeopleViewController {
     //MARK: TODO - Deal with network handling in the NavigationViewController instead of here
     func didRefresh() {
         let networkHandler = NetworkHandler()
-        networkHandler.fetch(from: .persons) { [self] (data: People?, error) in
+        networkHandler.fetch(from: PipedriveEndpoint.persons) { [self] (data: People?, error) in
                 guard let receivedData = data else {
                     if let error = error {
                         print("\(error.description)")

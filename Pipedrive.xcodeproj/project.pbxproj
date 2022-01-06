@@ -27,7 +27,7 @@
 		91269372275D9CB2000C95EB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269371275D9CB2000C95EB /* Colors.swift */; };
 		9126937A275D9F12000C95EB /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269379275D9F12000C95EB /* Layout.swift */; };
 		91269382275EAF31000C95EB /* PinboardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269381275EAF31000C95EB /* PinboardCollectionView.swift */; };
-		91F5C096275FF8A300D61D01 /* CompanyCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F5C095275FF8A300D61D01 /* CompanyCredentials.swift */; };
+		91336B0D2785E7440074DAE0 /* Service-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91336B0C2785E7440074DAE0 /* Service-Info.plist */; };
 		BED6FE6D23EE9C9AD4437103 /* Pods_Pipedrive_PipedriveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D877C530A5C202961CE83 /* Pods_Pipedrive_PipedriveUITests.framework */; };
 		D85990B1CE2025B255A0CF05 /* Pods_Pipedrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034D0B1200AC8107B06694C6 /* Pods_Pipedrive.framework */; };
 /* End PBXBuildFile section */
@@ -80,7 +80,7 @@
 		91269371275D9CB2000C95EB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		91269379275D9F12000C95EB /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		91269381275EAF31000C95EB /* PinboardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinboardCollectionView.swift; sourceTree = "<group>"; };
-		91F5C095275FF8A300D61D01 /* CompanyCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCredentials.swift; sourceTree = "<group>"; };
+		91336B0C2785E7440074DAE0 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Service-Info.plist"; sourceTree = "<group>"; };
 		95B481A9A5698E14ED49B5EE /* Pods_PipedriveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PipedriveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6593925C4195D5EBDF4C9C4 /* Pods-Pipedrive-PipedriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pipedrive-PipedriveUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9A2856546BF9E67D35E4980 /* Pods-PipedriveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipedriveTests.release.xcconfig"; path = "Target Support Files/Pods-PipedriveTests/Pods-PipedriveTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +163,7 @@
 				912692EA275D0CB5000C95EB /* Assets.xcassets */,
 				912692EC275D0CB5000C95EB /* LaunchScreen.storyboard */,
 				912692EF275D0CB5000C95EB /* Info.plist */,
+				91336B0C2785E7440074DAE0 /* Service-Info.plist */,
 			);
 			path = Pipedrive;
 			sourceTree = "<group>";
@@ -197,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				91269329275D3139000C95EB /* NetworkHandler.swift */,
-				91F5C095275FF8A300D61D01 /* CompanyCredentials.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -362,6 +362,7 @@
 			files = (
 				912692EE275D0CB5000C95EB /* LaunchScreen.storyboard in Resources */,
 				912692EB275D0CB5000C95EB /* Assets.xcassets in Resources */,
+				91336B0D2785E7440074DAE0 /* Service-Info.plist in Resources */,
 				912692E9275D0CAA000C95EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +504,6 @@
 				91269343275D8FA2000C95EB /* DetailsViewController.swift in Sources */,
 				9126937A275D9F12000C95EB /* Layout.swift in Sources */,
 				91269355275D94B8000C95EB /* PinboardViewController.swift in Sources */,
-				91F5C096275FF8A300D61D01 /* CompanyCredentials.swift in Sources */,
 				9126935E275D96D5000C95EB /* PhotoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
