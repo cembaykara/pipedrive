@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		420287F695B045DB0663EBD2 /* Pods_PipedriveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B481A9A5698E14ED49B5EE /* Pods_PipedriveTests.framework */; };
 		912692E2275D0CAA000C95EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912692E1275D0CAA000C95EB /* AppDelegate.swift */; };
 		912692E4275D0CAA000C95EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912692E3275D0CAA000C95EB /* SceneDelegate.swift */; };
 		912692E6275D0CAA000C95EB /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912692E5275D0CAA000C95EB /* PeopleViewController.swift */; };
@@ -19,17 +18,8 @@
 		91269321275D2FBD000C95EB /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269320275D2FBD000C95EB /* People.swift */; };
 		9126932A275D3139000C95EB /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269329275D3139000C95EB /* NetworkHandler.swift */; };
 		91269343275D8FA2000C95EB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269342275D8FA2000C95EB /* DetailsViewController.swift */; };
-		9126934B275D936F000C95EB /* Flipable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126934A275D936F000C95EB /* Flipable.swift */; };
-		91269355275D94B8000C95EB /* PinboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269354275D94B8000C95EB /* PinboardViewController.swift */; };
-		9126935D275D96D5000C95EB /* PhotoViewFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126935A275D96D5000C95EB /* PhotoViewFront.swift */; };
-		9126935E275D96D5000C95EB /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126935B275D96D5000C95EB /* PhotoViewCell.swift */; };
-		9126935F275D96D5000C95EB /* PhotoViewBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126935C275D96D5000C95EB /* PhotoViewBack.swift */; };
-		91269372275D9CB2000C95EB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269371275D9CB2000C95EB /* Colors.swift */; };
-		9126937A275D9F12000C95EB /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269379275D9F12000C95EB /* Layout.swift */; };
-		91269382275EAF31000C95EB /* PinboardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91269381275EAF31000C95EB /* PinboardCollectionView.swift */; };
-		91336B0D2785E7440074DAE0 /* Service-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91336B0C2785E7440074DAE0 /* Service-Info.plist */; };
-		BED6FE6D23EE9C9AD4437103 /* Pods_Pipedrive_PipedriveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D877C530A5C202961CE83 /* Pods_Pipedrive_PipedriveUITests.framework */; };
-		D85990B1CE2025B255A0CF05 /* Pods_Pipedrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034D0B1200AC8107B06694C6 /* Pods_Pipedrive.framework */; };
+		91336B0D2785E7440074DAE0 /* PipedriveService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91336B0C2785E7440074DAE0 /* PipedriveService-Info.plist */; };
+		91336B16278B27C40074DAE0 /* PipedriveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91336B15278B27C40074DAE0 /* PipedriveService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034D0B1200AC8107B06694C6 /* Pods_Pipedrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pipedrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A8D877C530A5C202961CE83 /* Pods_Pipedrive_PipedriveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pipedrive_PipedriveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38460012CA7F1A941FCD009F /* Pods-PipedriveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipedriveTests.debug.xcconfig"; path = "Target Support Files/Pods-PipedriveTests/Pods-PipedriveTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F4A4B3371AE2ED352958D8C /* Pods-Pipedrive-PipedriveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pipedrive-PipedriveUITests.release.xcconfig"; path = "Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6C44FB4FD11087D48944006C /* Pods-Pipedrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pipedrive.debug.xcconfig"; path = "Target Support Files/Pods-Pipedrive/Pods-Pipedrive.debug.xcconfig"; sourceTree = "<group>"; };
 		912692DE275D0CAA000C95EB /* Pipedrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pipedrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912692E1275D0CAA000C95EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		912692E3275D0CAA000C95EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,19 +57,8 @@
 		91269320275D2FBD000C95EB /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		91269329275D3139000C95EB /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		91269342275D8FA2000C95EB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		9126934A275D936F000C95EB /* Flipable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flipable.swift; sourceTree = "<group>"; };
-		91269354275D94B8000C95EB /* PinboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinboardViewController.swift; sourceTree = "<group>"; };
-		9126935A275D96D5000C95EB /* PhotoViewFront.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewFront.swift; sourceTree = "<group>"; };
-		9126935B275D96D5000C95EB /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
-		9126935C275D96D5000C95EB /* PhotoViewBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewBack.swift; sourceTree = "<group>"; };
-		91269371275D9CB2000C95EB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		91269379275D9F12000C95EB /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
-		91269381275EAF31000C95EB /* PinboardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinboardCollectionView.swift; sourceTree = "<group>"; };
-		91336B0C2785E7440074DAE0 /* Service-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Service-Info.plist"; sourceTree = "<group>"; };
-		95B481A9A5698E14ED49B5EE /* Pods_PipedriveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PipedriveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6593925C4195D5EBDF4C9C4 /* Pods-Pipedrive-PipedriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pipedrive-PipedriveUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9A2856546BF9E67D35E4980 /* Pods-PipedriveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipedriveTests.release.xcconfig"; path = "Target Support Files/Pods-PipedriveTests/Pods-PipedriveTests.release.xcconfig"; sourceTree = "<group>"; };
-		F7206EF23BB14187FDBE0629 /* Pods-Pipedrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pipedrive.release.xcconfig"; path = "Target Support Files/Pods-Pipedrive/Pods-Pipedrive.release.xcconfig"; sourceTree = "<group>"; };
+		91336B0C2785E7440074DAE0 /* PipedriveService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PipedriveService-Info.plist"; sourceTree = "<group>"; };
+		91336B15278B27C40074DAE0 /* PipedriveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipedriveService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D85990B1CE2025B255A0CF05 /* Pods_Pipedrive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420287F695B045DB0663EBD2 /* Pods_PipedriveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,26 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED6FE6D23EE9C9AD4437103 /* Pods_Pipedrive_PipedriveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		419C427FB73B2437684CF1DD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6C44FB4FD11087D48944006C /* Pods-Pipedrive.debug.xcconfig */,
-				F7206EF23BB14187FDBE0629 /* Pods-Pipedrive.release.xcconfig */,
-				B6593925C4195D5EBDF4C9C4 /* Pods-Pipedrive-PipedriveUITests.debug.xcconfig */,
-				4F4A4B3371AE2ED352958D8C /* Pods-Pipedrive-PipedriveUITests.release.xcconfig */,
-				38460012CA7F1A941FCD009F /* Pods-PipedriveTests.debug.xcconfig */,
-				E9A2856546BF9E67D35E4980 /* Pods-PipedriveTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		912692D5275D0CAA000C95EB = {
 			isa = PBXGroup;
 			children = (
@@ -135,8 +93,6 @@
 				912692F7275D0CB5000C95EB /* PipedriveTests */,
 				91269302275D0CB5000C95EB /* PipedriveUITests */,
 				912692DF275D0CAA000C95EB /* Products */,
-				419C427FB73B2437684CF1DD /* Pods */,
-				A92135804A19C55D7E3F5394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,7 +109,6 @@
 		912692E0275D0CAA000C95EB /* Pipedrive */ = {
 			isa = PBXGroup;
 			children = (
-				9126938F275EE897000C95EB /* FailedCustomFlipableCollectionView */,
 				91269341275D8F5C000C95EB /* ViewController */,
 				91269328275D3127000C95EB /* Network */,
 				9126931F275D2F96000C95EB /* Model */,
@@ -163,7 +118,7 @@
 				912692EA275D0CB5000C95EB /* Assets.xcassets */,
 				912692EC275D0CB5000C95EB /* LaunchScreen.storyboard */,
 				912692EF275D0CB5000C95EB /* Info.plist */,
-				91336B0C2785E7440074DAE0 /* Service-Info.plist */,
+				91336B0C2785E7440074DAE0 /* PipedriveService-Info.plist */,
 			);
 			path = Pipedrive;
 			sourceTree = "<group>";
@@ -197,6 +152,7 @@
 		91269328275D3127000C95EB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				91336B15278B27C40074DAE0 /* PipedriveService.swift */,
 				91269329275D3139000C95EB /* NetworkHandler.swift */,
 			);
 			path = Network;
@@ -211,47 +167,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		91269370275D9C98000C95EB /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				91269379275D9F12000C95EB /* Layout.swift */,
-				9126934A275D936F000C95EB /* Flipable.swift */,
-				91269371275D9CB2000C95EB /* Colors.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		9126938F275EE897000C95EB /* FailedCustomFlipableCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				91269370275D9C98000C95EB /* Helpers */,
-				91269390275EE8BD000C95EB /* View */,
-				91269354275D94B8000C95EB /* PinboardViewController.swift */,
-			);
-			path = FailedCustomFlipableCollectionView;
-			sourceTree = "<group>";
-		};
-		91269390275EE8BD000C95EB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9126935C275D96D5000C95EB /* PhotoViewBack.swift */,
-				9126935B275D96D5000C95EB /* PhotoViewCell.swift */,
-				9126935A275D96D5000C95EB /* PhotoViewFront.swift */,
-				91269381275EAF31000C95EB /* PinboardCollectionView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A92135804A19C55D7E3F5394 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				034D0B1200AC8107B06694C6 /* Pods_Pipedrive.framework */,
-				2A8D877C530A5C202961CE83 /* Pods_Pipedrive_PipedriveUITests.framework */,
-				95B481A9A5698E14ED49B5EE /* Pods_PipedriveTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,11 +174,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91269308275D0CB5000C95EB /* Build configuration list for PBXNativeTarget "Pipedrive" */;
 			buildPhases = (
-				0C391E15101D05E484B718FE /* [CP] Check Pods Manifest.lock */,
 				912692DA275D0CAA000C95EB /* Sources */,
 				912692DB275D0CAA000C95EB /* Frameworks */,
 				912692DC275D0CAA000C95EB /* Resources */,
-				A7F84457ABF66CC84A82D5A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,7 +191,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9126930B275D0CB5000C95EB /* Build configuration list for PBXNativeTarget "PipedriveTests" */;
 			buildPhases = (
-				2334EC9C39909775529D4511 /* [CP] Check Pods Manifest.lock */,
 				912692F0275D0CB5000C95EB /* Sources */,
 				912692F1275D0CB5000C95EB /* Frameworks */,
 				912692F2275D0CB5000C95EB /* Resources */,
@@ -297,11 +209,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9126930E275D0CB5000C95EB /* Build configuration list for PBXNativeTarget "PipedriveUITests" */;
 			buildPhases = (
-				AFC827A64A85AC57BF1D83CC /* [CP] Check Pods Manifest.lock */,
 				912692FB275D0CB5000C95EB /* Sources */,
 				912692FC275D0CB5000C95EB /* Frameworks */,
 				912692FD275D0CB5000C95EB /* Resources */,
-				B1AB1517E6CDFBA7F779AA48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -362,7 +272,7 @@
 			files = (
 				912692EE275D0CB5000C95EB /* LaunchScreen.storyboard in Resources */,
 				912692EB275D0CB5000C95EB /* Assets.xcassets in Resources */,
-				91336B0D2785E7440074DAE0 /* Service-Info.plist in Resources */,
+				91336B0D2785E7440074DAE0 /* PipedriveService-Info.plist in Resources */,
 				912692E9275D0CAA000C95EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,128 +293,18 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0C391E15101D05E484B718FE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pipedrive-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2334EC9C39909775529D4511 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PipedriveTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A7F84457ABF66CC84A82D5A6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pipedrive/Pods-Pipedrive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pipedrive/Pods-Pipedrive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pipedrive/Pods-Pipedrive-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFC827A64A85AC57BF1D83CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pipedrive-PipedriveUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1AB1517E6CDFBA7F779AA48 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pipedrive-PipedriveUITests/Pods-Pipedrive-PipedriveUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		912692DA275D0CAA000C95EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				912692E6275D0CAA000C95EB /* PeopleViewController.swift in Sources */,
-				9126935D275D96D5000C95EB /* PhotoViewFront.swift in Sources */,
 				912692E2275D0CAA000C95EB /* AppDelegate.swift in Sources */,
 				91269321275D2FBD000C95EB /* People.swift in Sources */,
-				9126935F275D96D5000C95EB /* PhotoViewBack.swift in Sources */,
 				9126932A275D3139000C95EB /* NetworkHandler.swift in Sources */,
-				9126934B275D936F000C95EB /* Flipable.swift in Sources */,
-				91269372275D9CB2000C95EB /* Colors.swift in Sources */,
+				91336B16278B27C40074DAE0 /* PipedriveService.swift in Sources */,
 				912692E4275D0CAA000C95EB /* SceneDelegate.swift in Sources */,
-				91269382275EAF31000C95EB /* PinboardCollectionView.swift in Sources */,
 				91269343275D8FA2000C95EB /* DetailsViewController.swift in Sources */,
-				9126937A275D9F12000C95EB /* Layout.swift in Sources */,
-				91269355275D94B8000C95EB /* PinboardViewController.swift in Sources */,
-				9126935E275D96D5000C95EB /* PhotoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,7 +477,6 @@
 		};
 		91269309275D0CB5000C95EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C44FB4FD11087D48944006C /* Pods-Pipedrive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -697,7 +496,6 @@
 		};
 		9126930A275D0CB5000C95EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7206EF23BB14187FDBE0629 /* Pods-Pipedrive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -717,7 +515,6 @@
 		};
 		9126930C275D0CB5000C95EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38460012CA7F1A941FCD009F /* Pods-PipedriveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -740,7 +537,6 @@
 		};
 		9126930D275D0CB5000C95EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9A2856546BF9E67D35E4980 /* Pods-PipedriveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -763,7 +559,6 @@
 		};
 		9126930F275D0CB5000C95EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6593925C4195D5EBDF4C9C4 /* Pods-Pipedrive-PipedriveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -784,7 +579,6 @@
 		};
 		91269310275D0CB5000C95EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F4A4B3371AE2ED352958D8C /* Pods-Pipedrive-PipedriveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
